@@ -271,6 +271,9 @@ section {
 	background: transparent;
 }
 #home {
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
 	padding-bottom: 0;
 	padding-top: 0;
 	background: linear-gradient(45deg, #474747, #363636 100%);
@@ -297,6 +300,7 @@ section {
 		transform: rotate(0deg);
 		opacity: 1
 	}
+
 }
 #profil .badan img {
 	border-radius: 100%;
@@ -383,10 +387,10 @@ section {
 	margin: 0;
 }
 #pendidikan .judul h2 {
-	color: #fff;
+	color: #000;
 }
 #pendidikan .judul h2 span::after {
-	background: #fff;
+	background: #000;
 }
 .judul h2 span::after {
     content: '';
@@ -572,6 +576,10 @@ section {
 	padding: 0;
 	margin: 0;
 	list-style: none;
+}
+
+#skill .judul h2 span::after {
+	background: #000;
 }
 #skill ul li {
 	margin:5px 0;
