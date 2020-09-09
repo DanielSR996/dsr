@@ -10,8 +10,8 @@
 
 
 .container-all{
-    width: 100%;
-    max-width:900px;
+    width: auto;
+    max-width:500px;
     margin: auto;
     padding: 10px;
     background: white;
